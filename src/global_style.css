@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(211,239,250);
+    background: linear-gradient(139deg, rgba(211,239,250,1) 0%, rgba(231,246,253,1) 85%);    
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+}
