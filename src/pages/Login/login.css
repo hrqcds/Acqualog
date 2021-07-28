@@ -80,6 +80,7 @@ button img{
 
 .login:hover{
     filter: brightness(0.9);
+    cursor: pointer;
 }
 
 .socialButton{
@@ -92,5 +93,6 @@ button img{
 
 .socialButton:hover{
     filter: brightness(0.9);
+    cursor: pointer;
 }
 

@@ -1,6 +1,9 @@
-import "./login.css"
-import logo from "../../assets/images/logo.jpg"
+import {Link} from "react-router-dom"
+
+import logo from "../../assets/images/logo-acqualog.png"
 import google_icon from "../../assets/images/google-icon.svg" 
+
+import "./login.css"
 
 export function Login(){
     return(
@@ -9,7 +12,7 @@ export function Login(){
             <div className="imgDiv">
                 <img className="logoImg" src={logo} alt="logo do projeto" />
                 <span>
-                    <h1>Project Water</h1>
+                    <h1>Acqualog</h1>
                 <p>Projeto que visa gerir relatórios para controle da limpeza da água</p></span>
             </div>
             <form>
@@ -29,7 +32,7 @@ export function Login(){
                 </div>          
             </form>
                        
-            <p>Esqueceu sua senha?  <a href="#"> clique aqui</a></p>
+            <p>Esqueceu sua senha?  <Link to="#"> clique aqui</Link></p>
         </div>
     )
 }

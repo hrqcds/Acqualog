@@ -1,0 +1,39 @@
+.componentHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100vw;
+    height: 3rem;
+
+    padding: 16px;
+}
+
+.logoDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoDiv img{
+    height: 45px;
+    width: 50px;
+}
+
+.navegacao{
+    display: flex;
+
+    justify-content: space-between;  
+    align-items: center;    
+}
+
+.navegacao nav {
+    margin-right: 22px;
+}
+
+.navegacao nav ul li{
+    padding: 16px;    
+}
+
+
+
