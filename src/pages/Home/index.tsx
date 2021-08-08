@@ -1,22 +1,22 @@
 import { Card } from "../../components/Card";
-import { Header } from "../../components/Header";
 
-export function Home(){
-    return(
+import "./home.css"
+
+export function Home() {
+    return (
         <>
-            <Header/>
             <div className="homePage">
-                <div className="section-card">
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                </div>
-                <div className="section-card">
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                </div>
+
+                <div className="sectionCards">
                 
+                    <Card titulo="Temperatura" />
+                    <Card titulo="pH" />
+                    <Card titulo="OD" />
+                    <Card titulo="Condutividade" />
+                    <Card titulo="Transparência" />
+                    <Card titulo="Tempo" />
+                    
+                </div>
 
             </div>
         </>

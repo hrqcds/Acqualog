@@ -1,0 +1,22 @@
+.homePage{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    
+
+}
+
+.sectionCards{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    justify-content: space-evenly;
+
+    
+}

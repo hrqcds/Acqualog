@@ -1,13 +1,14 @@
-import { FaUserAlt } from "react-icons/fa"
+import React from "react"
+
 import { Link } from "react-router-dom"
 
 import logo from "../../assets/images/logo-acqualog.png"
 
 import "./header.css"
 
-export function Header(){
-    return(
-        
+export function Header() {
+    return (
+
         <div className="componentHeader">
 
             <div className="logoDiv">
@@ -16,27 +17,20 @@ export function Header(){
             </div>
 
             <div className="navegacao">
-            
+
                 <nav>
                     <ul>
-                        <li>
-                            <Link to="#">Dashboard</Link>
+                        <li>                            
+                            <Link to="/">Dashboard</Link>
                         </li>
                         <li>
-                            <Link to="#">Cadastro de Itens</Link>
-                        </li>
-                        <li>
-                            <Link to="#">Relatórios</Link>
+                            <Link to="/relatorios">Relatórios</Link>
                         </li>
                     </ul>
                 </nav>
 
-                <button>
-                     <FaUserAlt size={30} color="#000"/>
-                </button>
-                
             </div>
-            
+
         </div>
     )
 }

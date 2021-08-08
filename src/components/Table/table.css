@@ -1,0 +1,57 @@
+.tableContainer{
+    width: 80vw;
+    max-height: 80vh;
+    overflow: scroll; 
+
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tableContainer::-webkit-scrollbar {
+    width: 2px;
+    height: 0;
+} 
+  
+.tableContainer::-webkit-scrollbar-thumb {   
+background-color: rgb(202, 202, 202);   
+}
+
+table{
+    
+    width: 80vw;
+    text-align: center;
+    background: #fff;
+
+    border-collapse: collapse;
+    overflow: scroll;
+}
+
+table th, td{
+    padding: 0.8rem;
+    color: #4169E1;
+    
+}
+
+tr{
+    border-top: 1px solid rgb(202, 202, 202); 
+    border-bottom: 1px solid rgb(202, 202, 202);;
+}
+
+th td{
+    border: 1px solid rgb(202, 202, 202);
+}
+
+td{
+    border-right: 1px solid rgb(202, 202, 202);
+}
+
+td:last-child{
+    border: none;
+}
+
+
+
+
