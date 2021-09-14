@@ -3,6 +3,7 @@ import logo from "../../assets/images/logo.jpg"
 import google_icon from "../../assets/images/google-icon.svg" 
 
 export function Login(){
+
     return(
         <div className="pageLogin">
             
@@ -12,7 +13,7 @@ export function Login(){
                     <h1>Project Water</h1>
                 <p>Projeto que visa gerir relatórios para controle da limpeza da água</p></span>
             </div>
-            <form>
+            <form id="">
                 <input type="text" placeholder="E-mail"/>
 
                 <input type="text" placeholder="Password"/>
