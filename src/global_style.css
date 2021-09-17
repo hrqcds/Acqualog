@@ -4,10 +4,30 @@
     box-sizing: border-box;
 }
 
+html::-webkit-scrollbar {
+    width: 8px;
+    height: 0;
+} 
+  
+html::-webkit-scrollbar-thumb {   
+background-color: rgb(202, 202, 202);   
+}
+
 body{
     background: rgb(211,239,250);
-    background: linear-gradient(139deg, rgba(211,239,250,1) 0%, rgba(231,246,253,1) 85%);    
+    background: linear-gradient(139deg, rgba(211,239,250,1) 0%, rgba(231,246,253,1) 85%);  
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
+
+
+h1{    
+    font-family: 'Poppins', sans-serif;
+}
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
 
 ul{
     list-style: none;

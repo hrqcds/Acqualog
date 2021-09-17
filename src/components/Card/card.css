@@ -1,0 +1,63 @@
+.card{
+
+    background: #fff;
+    color: #4169E1;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+    padding: 32px;
+    margin: 12px;
+    
+    display: flex;
+    flex-direction: column;
+    height: 13rem;
+    width: 22.3rem;
+    justify-content: space-around;
+    align-items: center;
+
+    transition: filter 0.3s;
+}
+
+.card:hover{
+    filter: brightness(0.9);
+}
+
+.cardItens{
+
+    display: flex;
+    
+    width: 100%;
+
+    justify-content: space-between;
+    align-items: center;     
+
+   
+}
+
+.card h1{
+    margin-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.card p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    
+}
+
+.datas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.minimo{
+    color: #a00217;
+}
+
+.maximo{
+    color: #1e9c5d;
+}

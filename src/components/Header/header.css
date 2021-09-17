@@ -1,0 +1,62 @@
+.componentHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 80vw;
+    min-width: 1150px;
+    height: 3rem;
+
+    padding: 16px;
+
+    margin: 0 auto;
+
+}
+
+.logoDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoDiv h1{
+    color: #4169E1;
+    font-weight: 700;
+}
+
+.logoDiv img{
+    height: 45px;
+    width: 50px;
+}
+
+
+.navegacao{
+    display: flex;
+
+    justify-content: space-between;  
+    align-items: center;    
+}
+
+.navegacao nav {
+    margin-right: 22px;
+}
+
+
+.navegacao nav ul li{
+    background-color: white;
+    margin: 5px;
+    padding: 10px;   
+    border-radius: 10px; 
+    transition: filter 0.2s;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.navegacao nav ul li:hover{
+    filter: brightness(0.9);
+    cursor: pointer;
+}
+
+.navegacao nav ul li a{
+    color: #4169E1;
+    font-weight: bold;   
+}
+
